@@ -42,7 +42,7 @@ function visitAndFill() {
     }
 
 
-    describe('Test currency and deposit', function()      // popis a funkce
+describe('Test currency and deposit', function()      // popis a funkce
 {  
 
     // Test spatneho vyplneni -> nema projit
@@ -53,10 +53,9 @@ function visitAndFill() {
         cy.get('.button.purple').click()
         cy.contains('Zadejte hodnotu').should('be.visible')  
         /* nevim, jak tam najit tu chybovou hlasku, ktera se tam objevuje jen na chvili. 
-        Prosla jsem snad cely html kod stranky a nevim... */
+            Prosla jsem snad cely html kod stranky a nevim... */
        
     })  
     
-
 })
   

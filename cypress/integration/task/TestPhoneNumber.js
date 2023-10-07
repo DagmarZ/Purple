@@ -40,7 +40,7 @@ function visitAndFill() {
     }
 
 
-    describe('Test currency and deposit', function()      // popis a funkce
+describe('Test currency and deposit', function()      // popis a funkce
 {  
     // Test spravneho vyplneni -> ma projit
     it('Test case correct', function() {
